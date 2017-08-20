@@ -18,6 +18,25 @@
         <junit.version>4.12</junit.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <debug>true</debug>
+                    <optimize>true</optimize>
+                    <verbose>true</verbose>
+                    <source>${maven.compile.sourceLevel}</source>
+                    <target>${maven.compile.targetLevel}</target>
+                    <compilerArgument>-g</compilerArgument>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
