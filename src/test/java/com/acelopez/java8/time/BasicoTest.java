@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.time.LocalDate;
 import java.time.Month;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Pruebas para los ejercicios de nivel básico
@@ -30,5 +30,23 @@ public class BasicoTest {
         Month siguiente = ejercicios.ejercicio2(date);
 
         assertEquals(date.getMonth().plus(1), siguiente);
+    }
+
+    @Test
+    public void ejercicio3() {
+        LocalDate date = LocalDate.of(2017, 8, 15);
+
+        LocalDate enero = ejercicios.ejercicio3(date);
+
+        assertEquals(date.withMonth(Month.JANUARY.getValue()), enero);
+    }
+
+    @Test
+    public void ejercicio4() {
+        LocalDate date = LocalDate.of(2017, 8, 15);
+
+        LocalDate enero = ejercicios.ejercicio3(date);
+
+        assertEquals(date.withMonth(Month.JANUARY.getValue()), enero);
     }
 }
