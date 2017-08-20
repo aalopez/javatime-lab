@@ -2,6 +2,7 @@
 .idea/
 /out/
 *.iws
+*.iml
 
 ### NetBeans ###
 nbproject/private/
