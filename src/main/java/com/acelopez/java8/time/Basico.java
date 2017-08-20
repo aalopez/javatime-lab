@@ -19,4 +19,14 @@ public class Basico {
     {
         throw new UnsupportedOperationException("No implementado aún.");
     }
+
+    /**
+     * Escribe el código necesario para retornar el siguiente mes al de la fecha pasada por param.
+     * @param date Fecha.
+     * @return Siguiente mes al de la fecha pasada por param.
+     */
+    public Month ejercicio2(LocalDate date)
+    {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
 }

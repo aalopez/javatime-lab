@@ -3,6 +3,7 @@ package com.acelopez.java8.time;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.time.Month;
 
 import static org.junit.Assert.*;
 
@@ -20,5 +21,14 @@ public class BasicoTest {
         String nombre = ejercicios.ejercicio1(date);
 
         assertEquals(date.getMonth().name(), nombre);
+    }
+
+    @Test
+    public void ejercicio2() {
+        LocalDate date = LocalDate.of(2017, 8, 15);
+
+        Month siguiente = ejercicios.ejercicio2(date);
+
+        assertEquals(date.getMonth().plus(1), siguiente);
     }
 }
