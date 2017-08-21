@@ -47,7 +47,7 @@ public class BasicoTest {
     public void ejercicio4() {
         LocalDate date = LocalDate.of(2017, 8, 15);
 
-        LocalDate enero = ejercicios.ejercicio3(date);
+        LocalDate enero = ejercicios.ejercicio4(date);
 
         assertEquals(date.withMonth(Month.JANUARY.getValue()), enero);
     }
