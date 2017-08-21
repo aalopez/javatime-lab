@@ -2,10 +2,9 @@ package com.acelopez.java8.time;
 
 import org.junit.Test;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
+import java.time.*;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
 
 import static org.junit.Assert.assertEquals;
 
@@ -68,5 +67,23 @@ public class BasicoTest {
         LocalDateTime at8am = ejercicios.ejercicio6(LocalDate.now());
 
         assertEquals(time, at8am.toLocalTime());
+    }
+
+    @Test
+    public void ejercicio7() {
+        LocalDateTime dateTime = LocalDateTime.now();
+
+        LocalDateTime mas330 = ejercicios.ejercicio7(dateTime);
+
+        assertEquals(dateTime.plusHours(3).plusMinutes(30), mas330);
+    }
+
+    @Test
+    public void ejercicio8() {
+        LocalDate date = LocalDate.now();
+
+        LocalDate sigLunes = ejercicios.ejercicio8(date);
+
+        assertEquals(date.with(TemporalAdjusters.next(DayOfWeek.MONDAY)), sigLunes);
     }
 }

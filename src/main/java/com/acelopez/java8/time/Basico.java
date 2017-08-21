@@ -1,8 +1,10 @@
 package com.acelopez.java8.time;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
+import java.time.temporal.TemporalAdjusters;
 
 /**
  * Clase con ejercicios nivel básico
@@ -70,6 +72,25 @@ public class Basico {
      * @return Fecha recibida como param pero a las 8AM.
      */
     public LocalDateTime ejercicio6(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar la fecha pasada por param pero 3 horas y 30 minutos más tarde.
+     * @param date Fecha y hora.
+     * @return Fecha y hora que está 3 horas y 30 minutos más tarde que la recibbida por param.
+     */
+    public LocalDateTime ejercicio7(LocalDateTime date)
+    {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar una fecha correspondiente al siguiente lunes de la fecha pasada por param.
+     * @param date Fecha.
+     * @return Fecha correspondiente al siguiente Lunes a la fecha pasada por param.
+     */
+    public LocalDate ejercicio8(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
