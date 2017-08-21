@@ -3,6 +3,8 @@ package com.acelopez.java8.time;
 import org.junit.Test;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.Month;
 
 import static org.junit.Assert.assertEquals;
@@ -48,5 +50,23 @@ public class BasicoTest {
         LocalDate enero = ejercicios.ejercicio3(date);
 
         assertEquals(date.withMonth(Month.JANUARY.getValue()), enero);
+    }
+
+    @Test
+    public void ejercicio5() {
+        LocalDate date = LocalDate.now();
+
+        LocalDate en2010 = ejercicios.ejercicio5(date);
+
+        assertEquals(2010, en2010.getYear());
+    }
+
+    @Test
+    public void ejercicio6() {
+        LocalTime time = LocalTime.of(8, 0);
+
+        LocalDateTime at8am = ejercicios.ejercicio6(LocalDate.now());
+
+        assertEquals(time, at8am.toLocalTime());
     }
 }

@@ -1,6 +1,7 @@
 package com.acelopez.java8.time;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.Month;
 
 /**
@@ -48,6 +49,27 @@ public class Basico {
      * @return El año y el día se deben mantener, pero el mes debe ser Enero.
      */
     public LocalDate ejercicio4(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar una fecha que corresponda al mismo mes y día de la fecha pasada por param
+     * pero en el año 2010.
+     *
+     * @param date Fecha
+     * @return Una fecha que corresponde al mes y día de la fecha pasada por param pero en el año 2010.
+     */
+    public LocalDate ejercicio5(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar la misma fecha pero a las 8AM.
+     *
+     * @param date Fecha.
+     * @return Fecha recibida como param pero a las 8AM.
+     */
+    public LocalDateTime ejercicio6(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
