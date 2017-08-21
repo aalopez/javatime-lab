@@ -3,6 +3,7 @@ package com.acelopez.java8.time;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
+import java.time.Year;
 
 /**
  * Clase con ejercicios nivel básico
@@ -91,6 +92,27 @@ public class Basico {
      * @see java.time.temporal.TemporalAdjusters
      */
     public LocalDate ejercicio8(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar una fecha correspondiente al primer día del siguiente mes
+     * de la fecha pasada por param.
+     *
+     * @param date Fecha.
+     * @return Fecha correspondiente al primer día del siguiente mes de la fecha pasada por param.
+     * @see java.time.temporal.TemporalAdjusters
+     */
+    public LocalDate ejercicio9(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar si el año recibido por param es bisiesto o no.
+     * @param year Año.
+     * @return {@code true} si y solo si el año recibido por param es bisiesto, {@code false} en caso contrario.
+     */
+    public boolean ejercicio10(Year year) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }

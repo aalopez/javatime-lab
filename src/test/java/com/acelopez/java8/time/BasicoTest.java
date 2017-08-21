@@ -6,6 +6,7 @@ import java.time.*;
 import java.time.temporal.TemporalAdjusters;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Pruebas para los ejercicios de nivel básico
@@ -85,4 +86,23 @@ public class BasicoTest {
 
         assertEquals(date.with(TemporalAdjusters.next(DayOfWeek.MONDAY)), sigLunes);
     }
+
+    @Test
+    public void ejercicio9() {
+        LocalDate date = LocalDate.now();
+
+        LocalDate primero = ejercicios.ejercicio9(date);
+
+        assertEquals(date.with(TemporalAdjusters.firstDayOfNextMonth()), primero);
+    }
+
+    @Test
+    public void ejercicio10() {
+        Year year = Year.of(2012);
+
+        boolean leap = ejercicios.ejercicio10(year);
+
+        assertTrue(leap);
+    }
+
 }
