@@ -3,7 +3,6 @@ package com.acelopez.java8.time;
 import org.junit.Test;
 
 import java.time.*;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 
 import static org.junit.Assert.assertEquals;
@@ -57,7 +56,7 @@ public class BasicoTest {
 
         LocalDate en2010 = ejercicios.ejercicio5(date);
 
-        assertEquals(2010, en2010.getYear());
+        assertEquals(date.withYear(2010), en2010.getYear());
     }
 
     @Test
