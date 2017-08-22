@@ -1,9 +1,6 @@
 package com.acelopez.java8.time;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.Year;
+import java.time.*;
 
 /**
  * Clase con ejercicios nivel básico
@@ -109,10 +106,41 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar si el año recibido por param es bisiesto o no.
+     *
      * @param year Año.
      * @return {@code true} si y solo si el año recibido por param es bisiesto, {@code false} en caso contrario.
      */
     public boolean ejercicio10(Year year) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar un periodo de 2 años y 3 meses.
+     *
+     * @return Periodo de 2 años y 3 meses.
+     */
+    public Period ejercicio11() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escriba el código necesario para retornar una fecha que corresponda a la fecha de hoy más el período recibido por param.
+     *
+     * @param period Periodo.
+     * @return Fecha que corresponde a la fecha de hoy más el tiempo definido en el período pasado por param.
+     */
+    public LocalDate ejercicio12(Period period) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escriba el código necesario para retornar un período de la cantidad de días que tiene el mes de la fecha
+     * pasada por param.
+     *
+     * @param date Fecha.
+     * @return Período de la cantidad de días que tiene el mes de la fecha pasada por param.
+     */
+    public Period ejercicio13(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }

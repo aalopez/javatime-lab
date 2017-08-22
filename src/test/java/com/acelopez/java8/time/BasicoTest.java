@@ -105,4 +105,27 @@ public class BasicoTest {
         assertTrue(leap);
     }
 
+    @Test
+    public void ejercicio11() {
+        Period period = ejercicios.ejercicio11();
+
+        assertTrue(period.getYears() == 2 && period.getMonths() == 3);
+    }
+
+    @Test
+    public void ejercicio12() {
+        Period period = Period.of(0, 0, 1);
+        LocalDate date = ejercicios.ejercicio12(period);
+
+        assertEquals(LocalDate.now().plus(period), date);
+    }
+
+    @Test
+    public void ejercicio13() {
+        LocalDate date = LocalDate.of(2012, 02, 16);
+        Period period = ejercicios.ejercicio13(date);
+
+        assertEquals(29, period.getDays());
+    }
+
 }
