@@ -128,4 +128,18 @@ public class BasicoTest {
         assertEquals(29, period.getDays());
     }
 
+    @Test
+    public void ejercicio14() {
+        YearMonth hoy = ejercicios.ejercicio14();
+
+        assertEquals(YearMonth.now(), hoy);
+    }
+
+    @Test
+    public void ejercicio15() {
+        MonthDay navidad = ejercicios.ejercicio15();
+
+        assertEquals(MonthDay.of(Month.DECEMBER, 25), navidad);
+    }
+
 }

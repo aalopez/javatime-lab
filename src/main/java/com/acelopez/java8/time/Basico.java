@@ -143,4 +143,21 @@ public class Basico {
     public Period ejercicio13(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
+
+    /**
+     * Escribe el código necesario para retornar el año y mes actual.
+     * @return Año y mes actual
+     */
+    public YearMonth ejercicio14() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el mes y día que representa la navidad.
+     * @return Mes y día que representa la navidad.
+     */
+    public MonthDay ejercicio15() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
 }
