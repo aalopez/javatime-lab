@@ -146,6 +146,7 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar el año y mes actual.
+     *
      * @return Año y mes actual
      */
     public YearMonth ejercicio14() {
@@ -154,10 +155,61 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar el mes y día que representa la navidad.
+     *
      * @return Mes y día que representa la navidad.
      */
     public MonthDay ejercicio15() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
+    /**
+     * Escribe el código necesario para retornar la fecha pasada por param en formato dd-MM-yy.
+     *
+     * @param date Fecha.
+     * @return Fecha pasada por param con formato dd-MM-yy.
+     */
+    public String ejercicio16(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar la fecha pasada por param en formato inglés americano.
+     * Usa un formato de fecha corto.
+     *
+     * @param date Fecha.
+     * @return Fecha pasada por param en formato inglés americano.
+     * @see java.time.format.FormatStyle
+     */
+    public String ejercicio17(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Convierte la fecha pasada por param a un LocalDate.
+     *
+     * @param fecha Fecha con formato dd-MM-yyyy.
+     * @return LocalDate correspondiente a la fecha pasada por param.
+     */
+    public LocalDate ejercicio18(String fecha) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar una instancia de Duration que se componga de 2 horas y 30 minutos.
+     *
+     * @return Un objeto de duración 2h y 30m.
+     */
+    public Duration ejercicio19() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Retornar la cantidad de días que componen el objeto duración enviado por param.
+     *
+     * @param duration Duración.
+     * @return Cantidad de días que componen el objeto duración pasado por param.
+     */
+    public long ejercicio20(Duration duration) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
 }

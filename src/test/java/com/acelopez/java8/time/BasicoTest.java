@@ -122,7 +122,7 @@ public class BasicoTest {
 
     @Test
     public void ejercicio13() {
-        LocalDate date = LocalDate.of(2012, 02, 16);
+        LocalDate date = LocalDate.of(2012, 2, 16);
         Period period = ejercicios.ejercicio13(date);
 
         assertEquals(29, period.getDays());
@@ -142,4 +142,43 @@ public class BasicoTest {
         assertEquals(MonthDay.of(Month.DECEMBER, 25), navidad);
     }
 
+    @Test
+    public void ejercicio16() {
+        LocalDate date = LocalDate.of(2017, 8, 16);
+        String fecha = ejercicios.ejercicio16(date);
+
+        assertEquals("16-08-2017", fecha);
+    }
+
+    @Test
+    public void ejercicio17() {
+        LocalDate date = LocalDate.of(2010, 4, 11);
+        String fecha = ejercicios.ejercicio17(date);
+
+        assertEquals("4/11/10", fecha);
+    }
+
+    @Test
+    public void ejercicio18() {
+        LocalDate date = LocalDate.of(2018, 9, 21);
+        LocalDate resultado = ejercicios.ejercicio18("21-09-2018");
+
+        assertEquals(date, resultado);
+    }
+
+    @Test
+    public void ejercicio19() {
+        Duration duration = Duration.ofHours(2).ofMinutes(30);
+        Duration resultado = ejercicios.ejercicio19();
+
+        assertEquals(duration, resultado);
+    }
+
+    @Test
+    public void ejercicio20() {
+        Duration duration = Duration.ofHours(2048);
+        long resultado = ejercicios.ejercicio20(duration);
+
+        assertEquals(duration.toDays(), resultado);
+    }
 }
