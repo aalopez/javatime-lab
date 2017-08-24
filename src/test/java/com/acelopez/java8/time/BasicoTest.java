@@ -57,7 +57,7 @@ public class BasicoTest {
 
         LocalDate en2010 = ejercicios.ejercicio5(date);
 
-        assertEquals(date.withYear(2010), en2010.getYear());
+        assertEquals(date.withYear(2010), en2010);
     }
 
     @Test
