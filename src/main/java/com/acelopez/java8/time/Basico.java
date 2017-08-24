@@ -115,6 +115,7 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar un periodo de 2 años y 3 meses.
+     * Ten cuidado al usar los métodos ofXYZ de Period, revisa la documentación de éstos antes de usarlos.
      *
      * @return Periodo de 2 años y 3 meses.
      */
