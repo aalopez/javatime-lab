@@ -31,6 +31,7 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar la fecha pasada por param con el mes de Enero.
+     * Usa alguno de los métodos withXYZ de LocalDate.
      *
      * @param date Fecha.
      * @return El año y el día se deben mantener, pero el mes debe ser Enero.
@@ -41,14 +42,12 @@ public class Basico {
 
     /**
      * Igual que el ejercicio anterior, escribe el código necesario para retornar la fecha pasada por param con el mes
-     * de Enero, pero esta vez usa el método with de LocalDate.
+     * de Enero, pero esta vez usa el método with(TemporalField) de LocalDate.
      *
      * @param date Fecha.
      * @return El año y el día se deben mantener, pero el mes debe ser Enero.
      */
-    public LocalDate ejercicio4(LocalDate date) {
-        throw new UnsupportedOperationException("No implementado aún.");
-    }
+    public LocalDate ejercicio4(LocalDate date) { throw new UnsupportedOperationException("No implementado aún."); }
 
     /**
      * Escribe el código necesario para retornar una fecha que corresponda al mismo mes y día de la fecha pasada por param
