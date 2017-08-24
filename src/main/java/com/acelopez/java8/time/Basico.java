@@ -163,7 +163,7 @@ public class Basico {
     }
 
     /**
-     * Escribe el código necesario para retornar la fecha pasada por param en formato dd-MM-yy.
+     * Escribe el código necesario para retornar la fecha pasada por param en formato dd-MM-yyyy.
      *
      * @param date Fecha.
      * @return Fecha pasada por param con formato dd-MM-yy.
