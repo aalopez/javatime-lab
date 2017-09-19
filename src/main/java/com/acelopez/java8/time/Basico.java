@@ -166,7 +166,7 @@ public class Basico {
      * Escribe el código necesario para retornar la fecha pasada por param en formato dd-MM-yyyy.
      *
      * @param date Fecha.
-     * @return Fecha pasada por param con formato dd-MM-yy.
+     * @return Fecha pasada por param con formato dd-MM-yyyy.
      */
     public String ejercicio16(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
