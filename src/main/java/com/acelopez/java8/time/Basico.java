@@ -196,6 +196,7 @@ public class Basico {
 
     /**
      * Escribe el código necesario para retornar una instancia de Duration que se componga de 2 horas y 30 minutos.
+     * Ten cuidado al usar los métodos ofXYZ de Duration, revisa la documentación de éstos antes de usarlos.
      *
      * @return Un objeto de duración 2h y 30m.
      */
