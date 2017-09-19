@@ -168,7 +168,7 @@ public class BasicoTest {
 
     @Test
     public void ejercicio19() {
-        Duration duration = Duration.ofHours(2).ofMinutes(30);
+        Duration duration = Duration.ofHours(2).plusMinutes(30);
         Duration resultado = ejercicios.ejercicio19();
 
         assertEquals(duration, resultado);
