@@ -30,7 +30,7 @@ public class Basico {
     }
 
     /**
-     * Escribe el código necesario para retornar la fecha pasada por param con el mes de Enero.
+     * Escribe el código necesario para retornar la fecha pasada por param pero con el mes de Enero.
      * Usa alguno de los métodos withXYZ de LocalDate.
      *
      * @param date Fecha.
@@ -41,17 +41,8 @@ public class Basico {
     }
 
     /**
-     * Igual que el ejercicio anterior, escribe el código necesario para retornar la fecha pasada por param con el mes
-     * de Enero, pero esta vez usa el método with(TemporalField) de LocalDate.
-     *
-     * @param date Fecha.
-     * @return El año y el día se deben mantener, pero el mes debe ser Enero.
-     */
-    public LocalDate ejercicio4(LocalDate date) { throw new UnsupportedOperationException("No implementado aún."); }
-
-    /**
      * Escribe el código necesario para retornar una fecha que corresponda al mismo mes y día de la fecha pasada por param
-     * pero en el año 2010.
+     * pero con el año 2010.
      *
      * @param date Fecha
      * @return Una fecha que corresponde al mes y día de la fecha pasada por param pero en el año 2010.
@@ -77,29 +68,6 @@ public class Basico {
      * @return Fecha y hora que está 3 horas y 30 minutos más tarde que la recibbida por param.
      */
     public LocalDateTime ejercicio7(LocalDateTime date) {
-        throw new UnsupportedOperationException("No implementado aún.");
-    }
-
-    /**
-     * Escribe el código necesario para retornar una fecha correspondiente al siguiente lunes de la fecha pasada por param.
-     *
-     * @param date Fecha.
-     * @return Fecha correspondiente al siguiente Lunes a la fecha pasada por param.
-     * @see java.time.temporal.TemporalAdjusters
-     */
-    public LocalDate ejercicio8(LocalDate date) {
-        throw new UnsupportedOperationException("No implementado aún.");
-    }
-
-    /**
-     * Escribe el código necesario para retornar una fecha correspondiente al primer día del siguiente mes
-     * de la fecha pasada por param.
-     *
-     * @param date Fecha.
-     * @return Fecha correspondiente al primer día del siguiente mes de la fecha pasada por param.
-     * @see java.time.temporal.TemporalAdjusters
-     */
-    public LocalDate ejercicio9(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -169,18 +137,6 @@ public class Basico {
      * @return Fecha pasada por param con formato dd-MM-yyyy.
      */
     public String ejercicio16(LocalDate date) {
-        throw new UnsupportedOperationException("No implementado aún.");
-    }
-
-    /**
-     * Escribe el código necesario para retornar la fecha pasada por param en formato inglés americano.
-     * Usa un formato de fecha corto.
-     *
-     * @param date Fecha.
-     * @return Fecha pasada por param en formato inglés americano.
-     * @see java.time.format.FormatStyle
-     */
-    public String ejercicio17(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
