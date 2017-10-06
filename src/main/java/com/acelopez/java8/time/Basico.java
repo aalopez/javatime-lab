@@ -47,7 +47,7 @@ public class Basico {
      * @param date Fecha
      * @return Una fecha que corresponde al mes y día de la fecha pasada por param pero en el año 2010.
      */
-    public LocalDate ejercicio5(LocalDate date) {
+    public LocalDate ejercicio4(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -57,7 +57,7 @@ public class Basico {
      * @param date Fecha.
      * @return Fecha recibida como param pero a las 8AM.
      */
-    public LocalDateTime ejercicio6(LocalDate date) {
+    public LocalDateTime ejercicio5(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -67,7 +67,7 @@ public class Basico {
      * @param date Fecha y hora.
      * @return Fecha y hora que está 3 horas y 30 minutos más tarde que la recibbida por param.
      */
-    public LocalDateTime ejercicio7(LocalDateTime date) {
+    public LocalDateTime ejercicio6(LocalDateTime date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -77,7 +77,7 @@ public class Basico {
      * @param year Año.
      * @return {@code true} si y solo si el año recibido por param es bisiesto, {@code false} en caso contrario.
      */
-    public boolean ejercicio10(Year year) {
+    public boolean ejercicio7(Year year) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -87,7 +87,7 @@ public class Basico {
      *
      * @return Periodo de 2 años y 3 meses.
      */
-    public Period ejercicio11() {
+    public Period ejercicio8() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -97,7 +97,7 @@ public class Basico {
      * @param period Periodo.
      * @return Fecha que corresponde a la fecha de hoy más el tiempo definido en el período pasado por param.
      */
-    public LocalDate ejercicio12(Period period) {
+    public LocalDate ejercicio9(Period period) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -108,7 +108,7 @@ public class Basico {
      * @param date Fecha.
      * @return Período de la cantidad de días que tiene el mes de la fecha pasada por param.
      */
-    public Period ejercicio13(LocalDate date) {
+    public Period ejercicio10(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -117,7 +117,7 @@ public class Basico {
      *
      * @return Año y mes actual
      */
-    public YearMonth ejercicio14() {
+    public YearMonth ejercicio11() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -126,7 +126,7 @@ public class Basico {
      *
      * @return Mes y día que representa la navidad.
      */
-    public MonthDay ejercicio15() {
+    public MonthDay ejercicio12() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -136,7 +136,7 @@ public class Basico {
      * @param date Fecha.
      * @return Fecha pasada por param con formato dd-MM-yyyy.
      */
-    public String ejercicio16(LocalDate date) {
+    public String ejercicio13(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -146,7 +146,7 @@ public class Basico {
      * @param fecha Fecha con formato dd-MM-yyyy.
      * @return LocalDate correspondiente a la fecha pasada por param.
      */
-    public LocalDate ejercicio18(String fecha) {
+    public LocalDate ejercicio14(String fecha) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -156,7 +156,7 @@ public class Basico {
      *
      * @return Un objeto de duración 2h y 30m.
      */
-    public Duration ejercicio19() {
+    public Duration ejercicio15() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -166,7 +166,7 @@ public class Basico {
      * @param duration Duración.
      * @return Cantidad de días que componen el objeto duración pasado por param.
      */
-    public long ejercicio20(Duration duration) {
+    public long ejercicio16(Duration duration) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }

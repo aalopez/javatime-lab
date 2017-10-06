@@ -2,10 +2,12 @@ package com.acelopez.java8.time;
 
 import org.junit.Test;
 
-import java.time.*;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
 import java.time.temporal.TemporalAdjusters;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Pruebas para los ejercicios de nivel intermedio
@@ -13,38 +15,38 @@ import static org.junit.Assert.*;
  */
 public class IntermedioTest {
     private Intermedio ejercicios = new Intermedio();
-    
+
     @Test
-    public void ejercicio4() {
+    public void ejercicio1() {
         LocalDate date = LocalDate.of(2017, 8, 15);
 
-        LocalDate enero = ejercicios.ejercicio4(date);
+        LocalDate enero = ejercicios.ejercicio1(date);
 
         assertEquals(date.withMonth(Month.JANUARY.getValue()), enero);
     }
-    
+
     @Test
-    public void ejercicio8() {
+    public void ejercicio2() {
         LocalDate date = LocalDate.now();
 
-        LocalDate sigLunes = ejercicios.ejercicio8(date);
+        LocalDate sigLunes = ejercicios.ejercicio2(date);
 
         assertEquals(date.with(TemporalAdjusters.next(DayOfWeek.MONDAY)), sigLunes);
     }
-    
+
     @Test
-    public void ejercicio9() {
+    public void ejercicio3() {
         LocalDate date = LocalDate.now();
 
-        LocalDate primero = ejercicios.ejercicio9(date);
+        LocalDate primero = ejercicios.ejercicio3(date);
 
         assertEquals(date.with(TemporalAdjusters.firstDayOfNextMonth()), primero);
     }
-    
+
     @Test
-    public void ejercicio17() {
+    public void ejercicio4() {
         LocalDate date = LocalDate.of(2010, 4, 11);
-        String fecha = ejercicios.ejercicio17(date);
+        String fecha = ejercicios.ejercicio4(date);
 
         assertEquals("4/11/10", fecha);
     }

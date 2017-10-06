@@ -42,106 +42,106 @@ public class BasicoTest {
     }
 
     @Test
-    public void ejercicio5() {
+    public void ejercicio4() {
         LocalDate date = LocalDate.now();
 
-        LocalDate en2010 = ejercicios.ejercicio5(date);
+        LocalDate en2010 = ejercicios.ejercicio4(date);
 
         assertEquals(date.withYear(2010), en2010);
     }
 
     @Test
-    public void ejercicio6() {
+    public void ejercicio5() {
         LocalTime time = LocalTime.of(8, 0);
 
-        LocalDateTime at8am = ejercicios.ejercicio6(LocalDate.now());
+        LocalDateTime at8am = ejercicios.ejercicio5(LocalDate.now());
 
         assertEquals(time, at8am.toLocalTime());
     }
 
     @Test
-    public void ejercicio7() {
+    public void ejercicio6() {
         LocalDateTime dateTime = LocalDateTime.now();
 
-        LocalDateTime mas330 = ejercicios.ejercicio7(dateTime);
+        LocalDateTime mas330 = ejercicios.ejercicio6(dateTime);
 
         assertEquals(dateTime.plusHours(3).plusMinutes(30), mas330);
     }
 
     @Test
-    public void ejercicio10() {
+    public void ejercicio7() {
         Year year = Year.of(2012);
 
-        boolean leap = ejercicios.ejercicio10(year);
+        boolean leap = ejercicios.ejercicio7(year);
 
         assertTrue(leap);
     }
 
     @Test
-    public void ejercicio11() {
-        Period period = ejercicios.ejercicio11();
+    public void ejercicio8() {
+        Period period = ejercicios.ejercicio8();
 
         assertTrue(period.getYears() == 2 && period.getMonths() == 3);
     }
 
     @Test
-    public void ejercicio12() {
+    public void ejercicio9() {
         Period period = Period.of(0, 0, 1);
-        LocalDate date = ejercicios.ejercicio12(period);
+        LocalDate date = ejercicios.ejercicio9(period);
 
         assertEquals(LocalDate.now().plus(period), date);
     }
 
     @Test
-    public void ejercicio13() {
+    public void ejercicio10() {
         LocalDate date = LocalDate.of(2012, 2, 16);
-        Period period = ejercicios.ejercicio13(date);
+        Period period = ejercicios.ejercicio10(date);
 
         assertEquals(29, period.getDays());
     }
 
     @Test
-    public void ejercicio14() {
-        YearMonth hoy = ejercicios.ejercicio14();
+    public void ejercicio11() {
+        YearMonth hoy = ejercicios.ejercicio11();
 
         assertEquals(YearMonth.now(), hoy);
     }
 
     @Test
-    public void ejercicio15() {
-        MonthDay navidad = ejercicios.ejercicio15();
+    public void ejercicio12() {
+        MonthDay navidad = ejercicios.ejercicio12();
 
         assertEquals(MonthDay.of(Month.DECEMBER, 25), navidad);
     }
 
     @Test
-    public void ejercicio16() {
+    public void ejercicio13() {
         LocalDate date = LocalDate.of(2017, 8, 16);
-        String fecha = ejercicios.ejercicio16(date);
+        String fecha = ejercicios.ejercicio13(date);
 
         assertEquals("16-08-2017", fecha);
     }
 
     @Test
-    public void ejercicio18() {
+    public void ejercicio14() {
         LocalDate date = LocalDate.of(2018, 9, 21);
-        LocalDate resultado = ejercicios.ejercicio18("21-09-2018");
+        LocalDate resultado = ejercicios.ejercicio14("21-09-2018");
 
         assertEquals(date, resultado);
     }
 
     @Test
-    public void ejercicio19() {
+    public void ejercicio15() {
         Duration duration = Duration.ofHours(2).plusMinutes(30);
-        Duration resultado = ejercicios.ejercicio19();
+        Duration resultado = ejercicios.ejercicio15();
 
         assertEquals(duration, resultado);
     }
 
     @Test
-    public void ejercicio20() {
+    public void ejercicio16() {
         Duration duration = Duration.ofHours(2048);
-        long resultado = ejercicios.ejercicio20(duration);
+        long resultado = ejercicios.ejercicio16(duration);
 
         assertEquals(duration.toDays(), resultado);
     }

@@ -15,7 +15,7 @@ public class Intermedio {
      * @param date Fecha.
      * @return El año y el día se deben mantener, pero el mes debe ser Enero.
      */
-    public LocalDate ejercicio4(LocalDate date) {
+    public LocalDate ejercicio1(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -26,7 +26,7 @@ public class Intermedio {
      * @return Fecha correspondiente al siguiente Lunes a la fecha pasada por param.
      * @see java.time.temporal.TemporalAdjusters
      */
-    public LocalDate ejercicio8(LocalDate date) {
+    public LocalDate ejercicio2(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -38,7 +38,7 @@ public class Intermedio {
      * @return Fecha correspondiente al primer día del siguiente mes de la fecha pasada por param.
      * @see java.time.temporal.TemporalAdjusters
      */
-    public LocalDate ejercicio9(LocalDate date) {
+    public LocalDate ejercicio3(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
@@ -50,7 +50,7 @@ public class Intermedio {
      * @return Fecha pasada por param en formato inglés americano.
      * @see java.time.format.FormatStyle
      */
-    public String ejercicio17(LocalDate date) {
+    public String ejercicio4(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
