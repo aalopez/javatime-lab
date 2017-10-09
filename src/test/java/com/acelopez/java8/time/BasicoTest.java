@@ -145,4 +145,24 @@ public class BasicoTest {
 
         assertEquals(duration.toDays(), resultado);
     }
+
+    @Test
+    public void ejercicio17() {
+        DayOfWeek hoy = ejercicios.ejercicio17();
+
+        assertEquals(LocalDate.now().getDayOfWeek(), hoy);
+    }
+
+    @Test
+    public void ejercicio18() {
+        DayOfWeek pasadoManana = ejercicios.ejercicio18();
+
+        assertEquals(LocalDate.now().getDayOfWeek().plus(2), pasadoManana);
+    }
+
+    @Test
+    public void ejercicio19() {
+        String dia = "WEDNESDAY";
+        assertTrue(ejercicios.ejercicio19(dia));
+    }
 }

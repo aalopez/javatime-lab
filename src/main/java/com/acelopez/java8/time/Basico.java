@@ -169,4 +169,39 @@ public class Basico {
     public long ejercicio16(Duration duration) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
+
+    /**
+     * Escribe el código necesario para retornar el día de la semana actual.
+     *
+     * @return El día de hoy.
+     * @see java.time.LocalDate
+     * @see java.time.DayOfWeek
+     */
+    public DayOfWeek ejercicio17() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el día de la semana correspondiente a pasado mañana.
+     *
+     * @return El día de la semana correspondiente a pasado mañana.
+     * @see java.time.LocalDate
+     * @see java.time.DayOfWeek
+     */
+    public DayOfWeek ejercicio18() {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para indicar si el día recibido como parámetro es un día laboral (Lunes...Viernes).
+     * Pista: Convierte el día pasado por param a un objeto DayOfWeek, luego, usa los números que representan a los días
+     * de la semana para validar el rango requerido.
+     *
+     * @param dia Cadena de texto que representa un día, ejemplo: MONDAY, TUESDAY, etc. Se garantiza que se envía uno de
+     *            los valores encontrados en DayOfWeek.
+     * @return {@code true} si y solo si el día pasado como parámetro está en el rango Lunes...Viernes.
+     */
+    public boolean ejercicio19(String dia) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
 }
