@@ -57,4 +57,11 @@ public class IntermedioTest {
 
         assertEquals("abril", mes);
     }
+
+    @Test
+    public void ejercicio9() {
+        String dia = ejercicios.ejercicio9(LocalDate.of(1981, Month.APRIL, 11));
+
+        assertEquals("sáb", dia);
+    }
 }

@@ -59,10 +59,23 @@ public class Intermedio {
      * Usa el estilo de texto completo si quieres obtener el nombre completo del mes.
      *
      * @param date Fecha.
-     * @return Nombre en español del mes de la fecha pasada por parámetro.
+     * @return Nombre, en español, del mes de la fecha pasada por parámetro.
      * @see java.time.format.TextStyle
      */
     public String ejercicio8(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el nombre corto, en español, del día de la semana que representa
+     * la fecha pasada por parámetro.
+     * Usa el estilo de texto corto si quieres obtener el nombre corto del día.
+     *
+     * @param date Fecha.
+     * @return Nombre, en español, del día de la semana que representa la fecha pasada por parámetro.
+     * @see java.time.format.TextStyle
+     */
+    public String ejercicio9(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
