@@ -2,7 +2,10 @@ package com.acelopez.java8.time;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoField;
 import java.time.temporal.TemporalAdjusters;
+import java.time.temporal.TemporalField;
 
 /**
  * Clase con ejercicios nivel intermedio
@@ -45,13 +48,26 @@ public class Intermedio {
     }
 
     /**
-     * Escribe el código necesario para retornar el número del día del miércoles anterior a la fecha pasada por param.
+     * Escribe el código necesario para retornar el número del día, en el mes, del miércoles anterior a la fecha
+     * pasada por param.
      *
      * @param date Fecha.
-     * @return Número de día del miércoles anterior al día que representa la fecha pasada por param.
+     * @return Número de día, en el mes, del miércoles anterior al día que representa la fecha pasada por param.
      * @see java.time.temporal.TemporalAdjusters
      */
     public int ejercicio4(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el valor del minuto en el día del objeto LocalDateTime
+     * pasado por param, esta vez debes usar el método LocalDateTime::get
+     *
+     * @param dateTime Fecha y hora.
+     * @return Valor del minuto en el día del objeto LocalDateTime pasado por param.
+     * @see java.time.temporal.ChronoField
+     */
+    public int ejercicio5(LocalDateTime dateTime) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 

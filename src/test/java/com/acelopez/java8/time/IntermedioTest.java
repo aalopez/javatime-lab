@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.temporal.TemporalAdjusters;
 
@@ -49,6 +50,14 @@ public class IntermedioTest {
         int dia = ejercicios.ejercicio4(date);
 
         assertEquals(11, dia);
+    }
+
+    @Test
+    public void ejercicio5() {
+        LocalDateTime dateTime = LocalDateTime.of(2017, 10, 16, 1, 30);
+        int dia = ejercicios.ejercicio5(dateTime);
+
+        assertEquals(90, dia);
     }
 
     @Test
