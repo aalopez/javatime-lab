@@ -81,4 +81,11 @@ public class IntermedioTest {
 
         assertEquals("sáb", dia);
     }
+
+    @Test
+    public void ejercicio10() {
+        long horas = ejercicios.ejercicio10();
+
+        assertEquals(12, horas);
+    }
 }

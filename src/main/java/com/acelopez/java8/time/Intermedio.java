@@ -1,8 +1,6 @@
 package com.acelopez.java8.time;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.*;
 import java.time.temporal.ChronoField;
 import java.time.temporal.TemporalAdjusters;
 import java.time.temporal.TemporalField;
@@ -105,6 +103,17 @@ public class Intermedio {
      * @see java.time.format.TextStyle
      */
     public String ejercicio9(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar la cantidad de horas que toma un vuelo que parte de Bogotá a las
+     * 5 horas del 1-OCT-2017 y llega a Los Angeles el mismo día, pero a las 15 horas (hora local en Los Angeles).
+     *
+     * @return Cantidad de horas que toma el vuelo en llegar a Los Angeles desde Bogotá.
+     * @see java.time.Duration
+     */
+    public long ejercicio10() {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
