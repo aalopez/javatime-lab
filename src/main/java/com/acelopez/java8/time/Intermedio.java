@@ -1,6 +1,6 @@
 package com.acelopez.java8.time;
 
-import java.time.*;
+import java.time.LocalDate;
 
 /**
  * Clase con ejercicios nivel intermedio
@@ -50,7 +50,19 @@ public class Intermedio {
      * @return Fecha pasada por param en formato inglés americano.
      * @see java.time.format.FormatStyle
      */
-    public String ejercicio4(LocalDate date) {
+    public String ejercicio7(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el nombre completo, en español, del mes de la fecha pasada por parámetro.
+     * Usa el estilo de texto completo si quieres obtener el nombre completo del mes.
+     *
+     * @param date Fecha.
+     * @return Nombre en español del mes de la fecha pasada por parámetro.
+     * @see java.time.format.TextStyle
+     */
+    public String ejercicio8(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 }
