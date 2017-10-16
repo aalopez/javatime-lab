@@ -165,4 +165,17 @@ public class BasicoTest {
         String dia = "WEDNESDAY";
         assertTrue(ejercicios.ejercicio19(dia));
     }
+
+    @Test
+    public void ejercicio20() {
+        ZonedDateTime zdt = ejercicios.ejercicio20(LocalDate.now());
+
+        ZoneId zone = ZoneId.of("America/Los_Angeles");
+
+        assertEquals(LocalDate.now(), zdt.toLocalDate());
+        assertEquals(12, zdt.getHour());
+        assertEquals(0, zdt.getMinute());
+        assertEquals(zone, zdt.getZone());
+
+    }
 }

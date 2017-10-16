@@ -204,4 +204,17 @@ public class Basico {
     public boolean ejercicio19(String dia) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
+
+    /**
+     * Escribe el código necesario para obtener un objeto ZonedDateTime a partir de la fecha pasada por parámetro.
+     * El objeto retornado debe cumplir con las siguientes características:
+     * La zona horaria debe ser: America/Los_Angeles.
+     * La hora del día debe ser: las 12 horas con 0 minutos.
+     *
+     * @param date Fecha.
+     * @return ZonedDatedTime con las características mencionadas.
+     */
+    public ZonedDateTime ejercicio20(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
 }
