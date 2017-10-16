@@ -44,6 +44,14 @@ public class IntermedioTest {
     }
 
     @Test
+    public void ejercicio4() {
+        LocalDate date = LocalDate.of(2017, 10, 16);
+        int dia = ejercicios.ejercicio4(date);
+
+        assertEquals(11, dia);
+    }
+
+    @Test
     public void ejercicio7() {
         LocalDate date = LocalDate.of(2010, 4, 11);
         String fecha = ejercicios.ejercicio7(date);

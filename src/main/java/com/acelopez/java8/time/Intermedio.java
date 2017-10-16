@@ -1,6 +1,8 @@
 package com.acelopez.java8.time;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
 
 /**
  * Clase con ejercicios nivel intermedio
@@ -43,6 +45,17 @@ public class Intermedio {
     }
 
     /**
+     * Escribe el código necesario para retornar el número del día del miércoles anterior a la fecha pasada por param.
+     *
+     * @param date Fecha.
+     * @return Número de día del miércoles anterior al día que representa la fecha pasada por param.
+     * @see java.time.temporal.TemporalAdjusters
+     */
+    public int ejercicio4(LocalDate date) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
      * Escribe el código necesario para retornar la fecha pasada por param en formato inglés americano.
      * Usa un formato de fecha corto.
      *
@@ -72,7 +85,7 @@ public class Intermedio {
      * Usa el estilo de texto corto si quieres obtener el nombre corto del día.
      *
      * @param date Fecha.
-     * @return Nombre, en español, del día de la semana que representa la fecha pasada por parámetro.
+     * @return Nombre corto, en español, del día de la semana que representa la fecha pasada por parámetro.
      * @see java.time.format.TextStyle
      */
     public String ejercicio9(LocalDate date) {
