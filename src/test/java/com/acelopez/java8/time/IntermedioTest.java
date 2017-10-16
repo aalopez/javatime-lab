@@ -2,10 +2,7 @@ package com.acelopez.java8.time;
 
 import org.junit.Test;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
+import java.time.*;
 import java.time.temporal.TemporalAdjusters;
 
 import static org.junit.Assert.assertEquals;
@@ -54,10 +51,18 @@ public class IntermedioTest {
 
     @Test
     public void ejercicio5() {
-        LocalDateTime dateTime = LocalDateTime.of(2017, 10, 16, 1, 30);
-        int dia = ejercicios.ejercicio5(dateTime);
+        LocalTime dateTime = LocalTime.of(1, 30);
+        int minuto = ejercicios.ejercicio5(dateTime);
 
-        assertEquals(90, dia);
+        assertEquals(90, minuto);
+    }
+
+    @Test
+    public void ejercicio6() {
+        LocalDate date = LocalDate.of(2017, 3, 15);
+        int dia = ejercicios.ejercicio6(date);
+
+        assertEquals(74, dia);
     }
 
     @Test

@@ -1,9 +1,7 @@
 package com.acelopez.java8.time;
 
-import java.time.*;
-import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalAdjusters;
-import java.time.temporal.TemporalField;
+import java.time.LocalDate;
+import java.time.LocalTime;
 
 /**
  * Clase con ejercicios nivel intermedio
@@ -58,14 +56,26 @@ public class Intermedio {
     }
 
     /**
-     * Escribe el código necesario para retornar el valor del minuto en el día del objeto LocalDateTime
-     * pasado por param, esta vez debes usar el método LocalDateTime::get
+     * Escribe el código necesario para retornar el valor del minuto en el día del objeto LocalTime
+     * pasado por param, esta vez debes usar el método LocalTime::get(TemporalField):int
      *
-     * @param dateTime Fecha y hora.
-     * @return Valor del minuto en el día del objeto LocalDateTime pasado por param.
+     * @param time Hora.
+     * @return Valor del minuto en el día del objeto LocalTime pasado por param.
      * @see java.time.temporal.ChronoField
      */
-    public int ejercicio5(LocalDateTime dateTime) {
+    public int ejercicio5(LocalTime time) {
+        throw new UnsupportedOperationException("No implementado aún.");
+    }
+
+    /**
+     * Escribe el código necesario para retornar el número del día en el año de la fecha pasada por param.
+     * Debes usar el método LocalDate::get(TemporalField):int
+     *
+     * @param date Fecha.
+     * @return Número del día en el año del objeto LocalDate pasado por param.
+     * @see java.time.temporal.ChronoField
+     */
+    public int ejercicio6(LocalDate date) {
         throw new UnsupportedOperationException("No implementado aún.");
     }
 
